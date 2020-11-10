@@ -1,16 +1,16 @@
 h1 a {
     color: red;
-    font-family: 'Lobster';
+    font-family: 'Courgette', cursive;
 }
 body {
     padding-left: 0px;
-    background-image: url(tennis.png);
+    background-image: url(Б.png);
     background-size: 105%;
 
 
 }
 .page-header {
-    background-color: blue;
+    background-color: violet;
     opacity: 50%;
     margin-top: 0px;
     padding: 5px 5px 5px 20px;
@@ -26,8 +26,8 @@ body {
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Arvo', serif;
+ h2, h3, h4 {
+    font-family: 'Courgette', cursive;
 
 }
 
@@ -38,17 +38,31 @@ h1, h2, h3, h4 {
 .save {
     float: right;
 }
-p { color: black;
+p { background: -webkit-linear-gradient(left, red , yellow,black);
+   background: -o-linear-gradient(right,red , yellow,black);
+   background: -moz-linear-gradient(right, red , yellow,black);
+   background: linear-gradient(to right, red , yellow,black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 font-size:18pt;
-font-family:'Abril Fatface', cursive;
+font-family:font-family: 'Courgette', cursive;
+
+}
+h1{
+ background: -webkit-linear-gradient(left, red , yellow);
+   background: -o-linear-gradient(right, red, yellow);
+   background: -moz-linear-gradient(right, red, yellow);
+   background: linear-gradient(to right, red , yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .post-form textarea, .post-form input {
     width: 100%;
-    color: black;
+    color: violet;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: white;
+    color: green;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -57,24 +71,17 @@ font-family:'Abril Fatface', cursive;
     margin-bottom: 70px;
 }
 .post h1 a, .post h1 a:visited {
-    color: red;
-}
-.carousel_slide {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, .8);
-  line-height: 40px;
-  font-size: 20px;
-}
-.item{
-    width: 100%;
+ background: -webkit-linear-gradient(left, red , yellow,violet);
+   background: -o-linear-gradient(right,red , yellow,violet);
+   background: -moz-linear-gradient(right, red , yellow,violet);
+   background: linear-gradient(to right, red , yellow,violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .images{
-    background: no-repeat url("rrr.png");
+    background: no-repeat url("man-tennis.png");
     background-size: contain;
     height:500px;
     width : 400px;
