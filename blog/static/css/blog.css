@@ -1,19 +1,21 @@
-h1 a, h2 a {
-    color: #C25100;
+h1 a {
+    color: red;
     font-family: 'Lobster';
 }
-
 body {
-    padding-left: 15px;
+    padding-left: 0px;
+    background: url(fon.png);
+    background-size: 100%;
 }
 .page-header {
-    background-color: #C25100;
-    margin-top: 0;
+    background-color: lightskyblue;
+    opacity: 40%;
+    margin-top: 0px;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: black;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -27,7 +29,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #828282;
+    color: black;
 }
 
 .save {
@@ -39,16 +41,27 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: white;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
 }
-
 .post {
     margin-bottom: 70px;
 }
-
-.post h2 a, .post h2 a:visited {
-    color: #000000;
+.post h1 a, .post h1 a:visited {
+    color: black;
+}
+.carousel_slide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, .8);
+  line-height: 40px;
+  font-size: 20px;
+}
+.item{
+    width: 100%;
 }
