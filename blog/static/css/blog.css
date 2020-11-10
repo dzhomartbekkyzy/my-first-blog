@@ -4,18 +4,20 @@ h1 a {
 }
 body {
     padding-left: 0px;
-    background: url(fon.png);
-    background-size: 100%;
+    background-image: url(tennis.png);
+    background-size: 105%;
+
+
 }
 .page-header {
-    background-color: lightskyblue;
-    opacity: 40%;
+    background-color: blue;
+    opacity: 50%;
     margin-top: 0px;
-    padding: 20px 20px 20px 40px;
+    padding: 5px 5px 5px 20px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: black;
+    color: red;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -25,7 +27,8 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Arvo', serif;
+
 }
 
 .date {
@@ -35,9 +38,13 @@ h1, h2, h3, h4 {
 .save {
     float: right;
 }
-
+p { color: black;
+font-size:18pt;
+font-family:'Abril Fatface', cursive;
+}
 .post-form textarea, .post-form input {
     width: 100%;
+    color: black;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
@@ -50,7 +57,7 @@ h1, h2, h3, h4 {
     margin-bottom: 70px;
 }
 .post h1 a, .post h1 a:visited {
-    color: black;
+    color: red;
 }
 .carousel_slide {
   position: absolute;
@@ -64,4 +71,11 @@ h1, h2, h3, h4 {
 }
 .item{
     width: 100%;
+}
+
+.images{
+    background: no-repeat url("rrr.png");
+    background-size: contain;
+    height:500px;
+    width : 400px;
 }
