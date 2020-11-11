@@ -56,13 +56,10 @@ h1{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.post-form textarea, .post-form input {
-    width: 100%;
-    color: violet;
-}
+
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: green;
+    color: black;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -86,3 +83,15 @@ h1{
     height:500px;
     width : 400px;
 }
+.post-form textarea, .post-form input {
+    width: 100%;
+    color: black;
+}
+.post-form p{
+color: black;}
+
+#id_title{
+color: black;
+}
+input {
+color: black;}
