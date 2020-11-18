@@ -87,11 +87,7 @@ h1{
     width: 100%;
     color: black;
 }
-.post-form p{
-color: black;}
 
-#id_title{
-color: black;
+.comment {
+    margin: 20px 0px 20px 20px;
 }
-input {
-color: black;}
